@@ -17,7 +17,7 @@ def generate_credentials():
         "type": "service_account",
         "project_id": "test-multi-sourc-1660741594169",
         "private_key_id": "3cb34bcb6da50c4ea2aad9d3ad4a4c140d76c6df",
-        "private_key": os.environ["GOOGLE_APPLICATION_PRIVATE_KEY"],
+        "private_key": os.environ["GOOGLE_APPLICATION_PRIVATE_KEY"].replace('\\n', '\n'),
         "client_email": "starting-account-sncw64yb4ov3@test-multi-sourc-1660741594169.iam.gserviceaccount.com",
         "client_id": "100924551939878499158",
         "auth_uri": "https://accounts.google.com/o/woauth2/auth",
