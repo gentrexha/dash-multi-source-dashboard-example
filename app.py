@@ -18,6 +18,7 @@ load_figure_template("SANDSTONE")
 
 # App
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SANDSTONE])
+server = app.server
 
 # Layout
 app.layout = dbc.Container(
