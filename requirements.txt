@@ -1,6 +1,6 @@
 duneapi==4.0.0
 pandas==1.4.3
-google-api-python-client
+google-analytics-data
 oauth2client
 dash
 dash-bootstrap-components
