@@ -1,0 +1,9 @@
+duneapi==4.0.0
+pandas==1.4.3
+google-api-python-client
+oauth2client
+dash
+dash-bootstrap-components
+dash-bootstrap-templates
+plotly
+gunicorn
